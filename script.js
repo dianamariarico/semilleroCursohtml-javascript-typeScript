@@ -3,7 +3,7 @@ const sessions = [
     number: 1,
     date: '11-03-2026',
     recording: 'https://youtu.be/dRgj4VArtB4',
-    presentation: '',
+    presentation: 'https://drive.google.com/file/d/1LaQJ9IwZWkzfxZuUURgqUb3dOwNN4SeI/view?usp=sharing',
     resources: [
       {
         title: 'Roadmap: desarrollo frontend',
