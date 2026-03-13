@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semillero HTML, CSS y JavaScript</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-content">
+      <span class="badge">Curso – Semillero HTML, CSS y JavaScript</span>
+      <h1>Aprende desarrollo web desde cero</h1>
+      <p>
+        Un espacio de formación con sesiones, grabaciones, presentaciones y recursos
+        para fortalecer habilidades en frontend, terminal, Git, GitHub y JavaScript.
+      </p>
+      <div class="hero-buttons">
+        <a href="#sesiones" class="btn btn-primary">Ver sesiones</a>
+        <a href="#ruta" class="btn btn-secondary">Ruta de aprendizaje</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="summary container">
+      <article class="card mini-card">
+        <h2>Modalidad</h2>
+        <p>Sesiones guiadas con grabaciones, presentaciones y recursos de apoyo.</p>
+      </article>
+      <article class="card mini-card">
+        <h2>Temas</h2>
+        <p>HTML, CSS, JavaScript, internet, terminal, Git, GitHub y entorno de desarrollo.</p>
+      </article>
+      <article class="card mini-card">
+        <h2>Docente</h2>
+        <p>Diana Rico Mesa<br>Docente ITM</p>
+      </article>
+    </section>
+
+    <section id="sesiones" class="container section">
+      <div class="section-header">
+        <p class="eyebrow">Cronograma</p>
+        <h2>Sesiones del semillero</h2>
+      </div>
+      <div id="sessions-container" class="sessions-grid"></div>
+    </section>
+
+    <section id="ruta" class="learning-path">
+      <div class="container">
+        <div class="section-header path-header">
+          <p class="eyebrow light">Ruta sugerida</p>
+          <h2>Continúa fortaleciendo tus competencias</h2>
+          <p class="path-text">
+            Estos temas del documento sirven como base para avanzar paso a paso en tu formación web.
+          </p>
+        </div>
+        <div class="path-grid">
+          <article class="path-card">
+            <h3>Fundamentos web</h3>
+            <ul>
+              <li>Comprender cómo funciona internet</li>
+              <li>Aprender la estructura de HTML</li>
+              <li>Dar el siguiente paso con CSS</li>
+            </ul>
+          </article>
+          <article class="path-card">
+            <h3>Herramientas del desarrollador</h3>
+            <ul>
+              <li>Instalar Node.js y Visual Studio Code</li>
+              <li>Manejar la terminal de comandos</li>
+              <li>Usar Git y GitHub para control de versiones</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>Curso – Semillero HTML, CSS y JavaScript</p>
+      <p>Material organizado a partir de sesiones, grabaciones y recursos compartidos.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
