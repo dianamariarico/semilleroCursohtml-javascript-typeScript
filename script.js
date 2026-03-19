@@ -1,6 +1,18 @@
 const sessions = [
+   {
+    number: 4,
+    date: '18-03-2026',
+    recording: 'https://youtu.be/z9xofg5O_UI',
+    presentation: 'No está disponible en el momento',
+    resources: [
+      {
+        title: 'No disponible en el momento',
+        url: 'No disponible en el momento'
+      }
+    ]
+  },
   {
-    number: 1,
+    number: 3,
     date: '11-03-2026',
     recording: 'https://youtu.be/dRgj4VArtB4',
     presentation: 'https://drive.google.com/file/d/1LaQJ9IwZWkzfxZuUURgqUb3dOwNN4SeI/view?usp=sharing',
@@ -36,7 +48,7 @@ const sessions = [
     ]
   },
   {
-    number: 3,
+    number: 1,
     date: '26-02-2026',
     recording: 'https://youtu.be/0BzJJ6O1FN0',
     presentation: 'https://www.canva.com/design/DAHCXODtmZU/G5AFmv6egsDCOkJ3ZMXd1w/edit',
