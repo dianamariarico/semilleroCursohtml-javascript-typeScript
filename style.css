@@ -202,11 +202,11 @@ body {
   background: var(--surface-soft);
   border: 1px solid var(--border);
   border-radius: 18px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .info-box h4 {
-  margin: 0 0 12px;
+  margin: 0 0 1px;
   font-size: 1.02rem;
 }
 

@@ -4,9 +4,9 @@ const sessions = [
     date: '18-03-2026',
     recording: 'https://youtu.be/z9xofg5O_UI',
     presentation: 'https://www.canva.com/design/DAHEbhwmSYE/huaIKy2kMWIcCkdCi5sYug/edit?utm_content=DAHEbhwmSYE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
-    resources: [
-      {
-        title: 'Formularios HTML',
+    resources: [ 
+      { 
+        title: 'Formularios de HTML',
         url: 'https://www.canva.com/design/DAHEbhwmSYE/huaIKy2kMWIcCkdCi5sYug/edit?utm_content=DAHEbhwmSYE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
       },
       {
