@@ -3,13 +3,34 @@ const sessions = [
     number: 4,
     date: '18-03-2026',
     recording: 'https://youtu.be/z9xofg5O_UI',
-    presentation: 'No está disponible en el momento',
+    presentation: 'https://www.canva.com/design/DAHEbhwmSYE/huaIKy2kMWIcCkdCi5sYug/edit?utm_content=DAHEbhwmSYE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
     resources: [
       {
-        title: 'No disponible en el momento',
-        url: 'No disponible en el momento'
-      }
-    ]
+        title: 'Formularios HTML',
+        url: 'https://www.canva.com/design/DAHEbhwmSYE/huaIKy2kMWIcCkdCi5sYug/edit?utm_content=DAHEbhwmSYE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
+      },
+      {
+        title: 'Fundamentos de HTML',
+        url: 'https://www.canva.com/design/DAHEbnX65u4/UiJVnlVeh-ZTX6Usj8WHBg/edit?utm_content=DAHEbnX65u4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
+      },
+      {
+        title: 'Como funciona el internet',
+        url: 'https://www.canva.com/design/DAHEGrZZB_A/67nkhm06aUQ35Rr4FQS6Ag/edit?utm_content=DAHEGrZZB_A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
+      },
+      {
+      title: 'Repositorio de maqueta',
+        url: 'https://github.com/Alex-Beltran97/maqueta-dashboard-curso-frontend-itm'
+      },
+      {
+        title: 'Apoyo para maquetacion',
+        url: 'https://stitch.withgoogle.com/preview/12657339290532218795?node-id=a57394b2840d420cac668fce6f40f147&raw=1'
+      },
+    
+    ],
+     tarea:
+    {
+        title: 'Utilizar el Repositorio de la maqueta y crear el pie de página'
+    }  
   },
   {
     number: 3,
@@ -29,7 +50,11 @@ const sessions = [
         title: 'Curso HTML',
         url: 'https://www.youtube.com/watch?v=MJkdaVFHrto&t=57s&pp=ygUKY3Vyc28gaHRtbA%3D%3D'
       }
-    ]
+    ],
+     tarea:
+    {
+        title: 'No hay tarea'
+    }  
   },
   {
     number: 2,
@@ -45,7 +70,11 @@ const sessions = [
         title: 'Curso de manejo de la terminal',
         url: 'https://www.youtube.com/watch?v=3gRhwwkeiog&list=PLDbrnXa6SAzU71YLePBL_BDT4Qc5fYtRf'
       }
-    ]
+    ],
+     tarea:
+    {
+        title: 'No hay tarea'
+    }  
   },
   {
     number: 1,
@@ -65,7 +94,11 @@ const sessions = [
         title: 'Curso práctico de Git y GitHub',
         url: 'https://www.youtube.com/watch?v=HiXLkL42tMU'
       }
-    ]
+    ],
+    tarea:
+    {
+        title: 'No hay tarea'
+    }    
   }
 ];
 
@@ -82,6 +115,18 @@ function createResourceList(resources) {
     )
     .join('');
 }
+function createTarea(tarea) {
+  return tarea
+    .map(
+      (Tarea) => `
+        <p>
+          <a rel="noopener noreferrer">${tarea.title}</a>
+        </p>
+      `
+    )
+    .join('');
+}
+
 
 function renderSessions() {
   sessionsContainer.innerHTML = sessions
@@ -112,6 +157,7 @@ function renderSessions() {
                 ${createResourceList(session.resources)}
               </ul>
             </div>
+            
           </div>
         </article>
       `
