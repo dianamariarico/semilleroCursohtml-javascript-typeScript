@@ -1,5 +1,21 @@
 const sessions = [
    {
+    number: 5,
+    date: '25-03-2026',
+    recording: 'https://youtu.be/8lcMeh6DXno',
+    presentation: '',
+    resources: [ 
+      
+      
+      {
+        title: 'Apoyo para maquetacion',
+        url: 'https://stitch.withgoogle.com/preview/12657339290532218795?node-id=a57394b2840d420cac668fce6f40f147&raw=1'
+      }
+    
+    ],
+     
+  },
+   {
     number: 4,
     date: '18-03-2026',
     recording: 'https://youtu.be/z9xofg5O_UI',
