@@ -1,4 +1,25 @@
 const sessions = [
+  {
+    number: 6,
+    date: '08-04-2026',
+    recording: 'https://youtu.be/cmL2Ax8wD8k',
+    presentation: 'https://canva.link/8xznplaalbnr81x',
+    
+    resources: [ 
+          
+      {
+        title: 'pseudoclases',
+        url: 'https://drive.google.com/file/d/19oxCakoGcvzepk5P8qu9bRj5QHMgN_KE/view?usp=sharing'
+      },
+      {
+        title: 'Colores',
+        url: 'https://drive.google.com/file/d/1K1TecPf8Opx435vIzxi453GhnTrnYsWH/view?usp=sharing'
+      },
+      
+    
+    ],
+     
+  },
    {
     number: 5,
     date: '25-03-2026',
