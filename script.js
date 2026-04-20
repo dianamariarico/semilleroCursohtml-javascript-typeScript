@@ -1,4 +1,36 @@
 const sessions = [
+
+{
+    number: 7,
+    date: '15-04-2026',
+    recording: 'https://www.youtube.com/',
+    presentation: 'https://canva.link/zdbsdhf55irtnac',
+    
+    resources: [ 
+          
+      {
+        title: 'Guia de flexbox',
+        url: 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/'
+      },
+      
+      {
+        title: 'Position',
+        url: 'https://developer.mozilla.org/es/docs/Web/CSS/Reference/Properties/position'
+      },
+      {
+        title: 'Guia de Grid',
+        url: 'https://css-tricks.com/complete-guide-css-grid-layout/'
+      },
+      {
+        title: 'Media queries',
+        url: 'https://www.youtube.com/watch?v=yneuaVjotO8&pp=ygUXY3Vyc28gY3NzIG1lZGlhIHF1ZXJpZXM%3D'
+      },
+      
+      
+    
+    ],
+     
+  },
   {
     number: 6,
     date: '08-04-2026',
