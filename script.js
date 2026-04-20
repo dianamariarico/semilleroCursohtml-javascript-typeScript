@@ -3,7 +3,7 @@ const sessions = [
 {
     number: 7,
     date: '15-04-2026',
-    recording: 'https://www.youtube.com/',
+    recording: 'https://youtu.be/0KKiPPXs6XY',
     presentation: 'https://canva.link/zdbsdhf55irtnac',
     
     resources: [ 
