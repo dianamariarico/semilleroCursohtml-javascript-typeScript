@@ -1,7 +1,29 @@
 const sessions = [
+{
+    number: 8,
+    tema: 'Inicio al tema de Java script',
+    date: '22-04-2026',
+    recording: 'https://youtu.be/u8llb_Io94Q',
+    presentation: 'https://canva.link/qsfix6px4k3pvkr',
+    
+    resources: [ 
+          
+      {
+        title: 'Palabras reservadas de java script',
+        url: 'https://drive.google.com/file/d/1mUYd2zaUM6O0Rw8O0VzVfnvQOsMRzpb0/view?usp=sharing'
+      }
+      
+      
+      
+      
+    
+    ],
+     
+  },
 
 {
     number: 7,
+    tema: 'css - posicionamiento',
     date: '15-04-2026',
     recording: 'https://youtu.be/0KKiPPXs6XY',
     presentation: 'https://canva.link/zdbsdhf55irtnac',
@@ -33,6 +55,7 @@ const sessions = [
   },
   {
     number: 6,
+     tema: 'css pseudoclases',
     date: '08-04-2026',
     recording: 'https://youtu.be/cmL2Ax8wD8k',
     presentation: 'https://canva.link/8xznplaalbnr81x',
@@ -54,6 +77,7 @@ const sessions = [
   },
    {
     number: 5,
+    tema: 'Maquetación',
     date: '25-03-2026',
     recording: 'https://youtu.be/8lcMeh6DXno',
     presentation: '',
@@ -70,6 +94,7 @@ const sessions = [
   },
    {
     number: 4,
+    tema: 'Formularios con html',
     date: '18-03-2026',
     recording: 'https://youtu.be/z9xofg5O_UI',
     presentation: 'https://www.canva.com/design/DAHEbhwmSYE/huaIKy2kMWIcCkdCi5sYug/edit?utm_content=DAHEbhwmSYE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
@@ -103,6 +128,7 @@ const sessions = [
   },
   {
     number: 3,
+    tema: 'Internet e inicio en html',
     date: '11-03-2026',
     recording: 'https://youtu.be/dRgj4VArtB4',
     presentation: 'https://drive.google.com/file/d/1LaQJ9IwZWkzfxZuUURgqUb3dOwNN4SeI/view?usp=sharing',
@@ -128,6 +154,7 @@ const sessions = [
   {
     number: 2,
     date: '05-03-2026',
+    tema: 'Git y Githup para control de versiones y repositorio en la nube',
     recording: 'https://youtu.be/3Ug_BR42aDc',
     presentation: 'https://www.canva.com/design/DAHC9-oX9yo/8JwvAAZfmgfXUFnqONpmWw/edit?utm_content=DAHC9-oX9yo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
     resources: [
@@ -147,6 +174,7 @@ const sessions = [
   },
   {
     number: 1,
+    tema: 'Presentación de los temas del curso',
     date: '26-02-2026',
     recording: 'https://youtu.be/0BzJJ6O1FN0',
     presentation: 'https://www.canva.com/design/DAHCXODtmZU/G5AFmv6egsDCOkJ3ZMXd1w/edit',
@@ -205,6 +233,7 @@ function renderSessions() {
           <div class="session-top">
             <div>
               <p class="session-label">Sesión ${session.number}</p>
+              <h2> ${session.tema}</h2>
               <h3>Reunión del ${session.date}</h3>
             </div>
             <a class="session-link" href="${session.recording}" target="_blank" rel="noopener noreferrer">Ver grabación</a>
