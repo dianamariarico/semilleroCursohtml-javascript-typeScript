@@ -1,5 +1,32 @@
 const sessions = [
 {
+    number: 9,
+    tema: 'java script ciclos',
+    date: '30-04-2026',
+    recording: 'https://youtu.be/X3VArPtu-UM',
+    presentation: 'https://canva.link/f1ywkxwt44t5dwc',
+    
+    resources: [ 
+          
+      {
+        title: 'Métodos array',
+        url: 'https://canva.link/nhx3oxajkd8psaf'
+      }
+      {
+        title: 'Ejercicios realizados en clase',
+        url: 'https://github.com/Alex-Beltran97/clase-bucles-y-metodos-array-itm/tree/main'
+      }
+      
+      
+      
+      
+      
+    
+    ],
+     
+  },
+
+{
     number: 8,
     tema: 'Inicio al tema de Java script',
     date: '22-04-2026',
