@@ -11,7 +11,7 @@ const sessions = [
       {
         title: 'Métodos array',
         url: 'https://canva.link/nhx3oxajkd8psaf'
-      }
+      },
       {
         title: 'Ejercicios realizados en clase',
         url: 'https://github.com/Alex-Beltran97/clase-bucles-y-metodos-array-itm/tree/main'
