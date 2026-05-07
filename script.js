@@ -1,4 +1,36 @@
 const sessions = [
+  
+{
+    number: 9,
+    tema: 'Dominando el DOM',
+    date: '06-045-2026',
+    recording: 'https://youtu.be/2iaRlDhKfds',
+    presentation: 'https://canva.link/70xnty0k5apnb5h',
+    
+    resources: [ 
+          
+      {
+        title: 'Repositorios',
+        url: 'https://github.com/Alex-Beltran97/taller-manipulacion-dom.git'
+      },
+      {
+        title: 'Todos los eventos que se pueden usar con “addEventListener:',
+        url: 'https://html.spec.whatwg.org/multipage/indices.html'
+      }
+      {
+        title: 'Curso para manipular el DOM::',
+        url: 'https://www.youtube.com/watch?v=koiPxFFiqJ4&t=268s&pp=ygUNbWFuaXB1bGFyIERPTQ%3D%3D'
+      }
+      
+      
+      
+      
+      
+    
+    ],
+     
+  },
+
 {
     number: 9,
     tema: 'java script ciclos',
