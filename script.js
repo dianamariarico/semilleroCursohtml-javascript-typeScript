@@ -1,7 +1,7 @@
 const sessions = [
   
 {
-    number: 9,
+    number: 10,
     tema: 'Dominando el DOM',
     date: '06-045-2026',
     recording: 'https://youtu.be/2iaRlDhKfds',
@@ -16,17 +16,11 @@ const sessions = [
       {
         title: 'Todos los eventos que se pueden usar con “addEventListener:',
         url: 'https://html.spec.whatwg.org/multipage/indices.html'
-      }
+      },
       {
         title: 'Curso para manipular el DOM::',
         url: 'https://www.youtube.com/watch?v=koiPxFFiqJ4&t=268s&pp=ygUNbWFuaXB1bGFyIERPTQ%3D%3D'
       }
-      
-      
-      
-      
-      
-    
     ],
      
   },
