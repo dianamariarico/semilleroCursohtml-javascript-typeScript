@@ -1,5 +1,18 @@
 const sessions = [
-  
+{
+number: 11,
+tema: 'Dominando el DOM',
+date: '13-05-2026',
+recording: 'https://youtu.be/khNPAoVo85k',
+
+resources: [ 
+          
+      {
+        title: 'Repositorios',
+        url: 'https://github.com/Alex-Beltran97/taller-manipulacion-dom.git'
+      },
+     ]
+},
 {
     number: 10,
     tema: 'Dominando el DOM',
